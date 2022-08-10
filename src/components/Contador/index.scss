@@ -1,0 +1,32 @@
+.comp-Contador{
+    border: solid 1px white;
+    width: 50vh;
+
+    text-align: center;
+
+    padding: 0em 1em 0.5em 1em;
+
+    .formato{
+       display: flex;
+       flex-direction: column; 
+
+       margin: 0em;
+    }
+    .botoes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+
+        padding: 10px;
+    }
+
+    .botoes button{
+        width:  10em;
+
+        padding: 10px;
+        margin: 5px
+    }
+}

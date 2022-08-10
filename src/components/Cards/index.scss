@@ -1,27 +1,28 @@
 
 .Card{
     border: solid 1px white;
-
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(40,44,52,1) 31%, rgba(7,53,75,1) 49%, rgba(6,60,71,1) 61%, rgba(10,80,94,1) 72%, rgba(6,105,125,1) 82%, rgba(5,111,133,1) 88%);
     margin: 10px;
     padding: 10px;
 
-    
+    display: flex;
+
+    width: 100vh;
+    height: max-content;
+
     p{
         line-height: 1em;
     }
-    
-    
-    .EstiloUm{
-        width: 100vh;
-        height: 50vh;
-        
-        .agrupamento{
-            width: 50vh;
-        }
 
-        display: flex;
-        justify-content: space-between;
+    .EstiloUm{
         align-items: center;
+        .agrupamento{
+            display: flex;
+            justify-content: space-between;
+
+
+        }
 
         .image{
             margin-top: -10px;
@@ -30,20 +31,40 @@
     }
 
     .EstiloDois{
+        align-items: center;
+        
+        .image{
+            margin-right: 20px;
+            height: 40vh;
+        }
+        
+        .agrupamento{
+            display: flex;
+            flex-direction: row-reverse;
+            
+            padding: 10px;
+        }
+    }
+
+    .EstiloTres{
+
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
 
-        width: 100vh;
-        height: 40%;
-
         .image{
-            height: 10;
+            width: 40%;
         }
 
         .agrupamento{
-            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            width: 80%;
         }
     }
 

@@ -10,13 +10,12 @@ export default function Index(props) {
     return(
     <main className='Card'>
         <div className={props.alinhamento}>
-            <div className='agrupamento'>
                 <h2> Seção {props.numeroSecao} </h2>
-
+            <div className='agrupamento'>
                 <p> {props.texto} </p>
-            </div>
         
-            <img className="image" src={props.image} />
+                <img className="image" src={props.image} />
+            </div>
         </div>
     </main>
     )
