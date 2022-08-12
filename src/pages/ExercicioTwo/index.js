@@ -1,7 +1,7 @@
 import './index.scss'
 
 import Contador from '../../components/Contador'
-import Calculadora from '../../components/Calculadora'
+import  Calculadora from '../../components/Calculadora'
 
 export default function Index(){
 

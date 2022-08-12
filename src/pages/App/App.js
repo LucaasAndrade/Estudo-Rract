@@ -18,6 +18,7 @@ function App() {
 
           <p className='botao' onClick={ResponderClick}> Hello World ! </p>
           <a href='/exercicio'> Exercicío 1 </a>
+          <a href='/exercicio2'> Exercicío 2 </a>
 
       </header>
     </div>
