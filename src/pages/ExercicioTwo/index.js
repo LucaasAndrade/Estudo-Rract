@@ -10,7 +10,7 @@ export default function Index(){
         <main className='exercicioTwo'>
             <h2> Variáveis de Estado </h2>
 
-            <div>
+            <div className='Components'>
                 <Contador titulo="Contador de passos"/>
                 <Calculadora />
             </div>

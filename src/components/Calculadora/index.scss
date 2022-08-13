@@ -1,0 +1,42 @@
+.Calculadora{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border: solid 1px white;
+    width: 50vh;
+    padding: 0em 1em 0.5em 1em;
+
+    margin: 10px;
+
+    .click{
+        padding: 10px;
+        margin: 10px;
+
+        border-radius: 10px;
+
+        background-color: #282c34;
+        color: white;
+        border: 1px solid white;
+    }
+    .click:hover{
+        transform: scale(1.05,1.06);
+        cursor: pointer;
+    }
+
+    .operacao{
+        margin: 10px, 0px 10px 0px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .EstiloUm{
+
+
+
+    }
+}
