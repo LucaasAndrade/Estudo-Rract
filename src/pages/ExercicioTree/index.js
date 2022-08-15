@@ -9,11 +9,21 @@ export default function Index(){
 
     return(
         <main className='ExercicioTree'>
-            <h1> Use Effect - Atualizando de forma automáica </h1>
+            <h1> Use Effect - Atualizando de forma automática </h1>
 
-            <div>
+            <section className='container'>
                 <CalculoMediaAluno />
-            </div>
+
+                <div>
+                    <h3> Situação aluno </h3>
+
+                    <div>
+                    <p> Verificação de Situação Escolar </p>
+
+                    <span> {situacaoAluno} </span>
+                    </div>
+                </div>
+            </section>
             
         </main>
     )

@@ -1,0 +1,40 @@
+
+
+.Calculo-Media{
+    border: solid 1px white;
+    padding: 1.3em 1.5em;
+    
+    width: max-content;
+
+    text-align: center;
+    justify-content: center;
+
+    .Inputs{
+        color: white;
+    }
+
+    .Inputs div{
+        display: flex;
+        padding: 10px;
+
+        justify-content: end;
+    }
+
+    .Inputs div input{
+        width: 5em;
+        margin-left: 10px;
+        align-items: flex-end;
+
+        border: solid 1px white;
+        background-color: #282c34;
+        border-radius: 5px;
+
+        color: white;
+
+    }
+
+    .resposta{
+        width: max-content;
+        word-wrap: break-word;
+    }
+}

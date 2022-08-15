@@ -18,28 +18,28 @@ export default function CalculoMediaAluno() {
     }, [nota1, nota2, nota3, nota4])
 
     return (
-        <main>
+        <main className='Calculo-Media'>
             <h2> Media Aluno </h2>
 
-            <section>
+            <section className='Inputs'>
                 <div>
-                    <label> Nota 1</label>
+                    <label> Nota 1 :</label>
                     <input type='number' value={nota1} onChange={e => setNota1(Number(e.target.value))} />
                 </div>
                 <div>
-                    <label> Nota 2</label>
+                    <label> Nota 2 :</label>
                     <input type='number' value={nota2} onChange={e => setNota2(Number(e.target.value))} />
                 </div>
                 <div>
-                    <label> Nota 3</label>
+                    <label> Nota 3: </label>
                     <input type='number' value={nota3} onChange={e => setNota3(Number(e.target.value))} />
                 </div>
                 <div>
-                    <label> Nota 4</label>
+                    <label> Nota 4: </label>
                     <input type='number' value={nota4} onChange={e => setNota4(Number(e.target.value))} />
                 </div>
             </section>
-            <section>
+            <section className='resposta' >
                 <label> Média: </label>
                 <span> {media} </span>
             </section>
