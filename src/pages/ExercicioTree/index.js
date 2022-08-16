@@ -3,9 +3,17 @@
 import './index.scss'
 
 import CalculoMediaAluno from '../../components/CalculoMedia'
+import situacaoAluno from '../../services/situacaoAluno'
+import { useState } from 'react'
 
 export default function Index(){
+    const [media, setMedia] = useState(0);
+    const [situacao, setSituacao] = useState('');
 
+    function verificarClick() {
+        let x = situacaoAluno(media);
+        setSituacao(x);
+    }
 
     return(
         <main className='ExercicioTree'>
@@ -14,13 +22,18 @@ export default function Index(){
             <section className='container'>
                 <CalculoMediaAluno />
 
-                <div>
+                <div className='Situacao-Aluno'>
                     <h3> Situação aluno </h3>
-
-                    <div>
                     <p> Verificação de Situação Escolar </p>
 
-                    <span> {situacaoAluno} </span>
+                    <div className='div'>
+
+                    <input type='number' value={media} onChange={e => setMedia(Number(e.target.value))}/>
+
+                    <button onClick={verificarClick}> Verificar Situação </button>
+
+                    <span> {situacao} </span>
+
                     </div>
                 </div>
             </section>
