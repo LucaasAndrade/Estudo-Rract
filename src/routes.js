@@ -5,6 +5,7 @@ import Home from './pages/App/App.js'
 import ExOne from './pages/ExercicioOne'
 import ExTwo from './pages/ExercicioTwo'
 import ExTree from './pages/ExercicioTree'
+import Renderizacao from "./pages/Renderizacao/index.js";
 
 export default function Index() {
 
@@ -15,6 +16,7 @@ export default function Index() {
             <Route  path="/exercicio" element={<ExOne/>} />
             <Route  path="/exercicio2" element={<ExTwo/>} />
             <Route path="/exercicio3" element={<ExTree/>} />
+            <Route path="/exercicio4" element={<Renderizacao/>} />
         </Routes>
     </BrowserRouter>
     )

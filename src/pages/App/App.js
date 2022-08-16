@@ -20,6 +20,7 @@ function App() {
           <a href='/exercicio'> Exercicío 1 </a>
           <a href='/exercicio2'> Exercicío 2 </a>
           <a href='/exercicio3' > Exercicio 3</a>
+          <a href='/exercicio4' > Exercicio 4</a>
 
       </header>
     </div>
